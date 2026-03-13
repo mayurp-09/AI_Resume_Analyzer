@@ -148,7 +148,7 @@ function App() {
 
               <div className="md:col-span-8 glass-card p-8 bg-gradient-to-br from-white/[0.03] to-transparent flex flex-col justify-center">
                 <h4 className="text-xs font-black text-purple-400 uppercase tracking-widest mb-4">✍ Executive Summary</h4>
-                <p className="text-slate-300 leading-relaxed font-light italic text-lg">"{analysis.summary}"</p>
+                <p className="text-slate-300 leading-relaxed font-light text-lg">"{analysis.summary}"</p>
               </div>
             </div>
 
@@ -241,12 +241,10 @@ function App() {
                 ))}
               </div>
             </div>
-
           </div>
         )}
       </div>
     </div>
   );
 }
-
 export default App;
